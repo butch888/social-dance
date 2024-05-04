@@ -1,4 +1,6 @@
+import Header from "@/components/Header";
 import "/css/style.css";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Social Dance TV",
@@ -8,7 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+        <Footer/>
+      </body>
     </html>
   );
 }

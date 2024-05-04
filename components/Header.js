@@ -1,18 +1,11 @@
 import React from 'react'
 import ImageLogo from './ImageLogo'
+import Socials from './Socials'
 
 export default function Header() {
   return (
-    <div className='max-w-[1440px] px-[22px] py-[22px] flex justify-between'>
-
+    <div className='max-w-[1440px] px-[22px] py-[22px] flex justify-center '>
       <ImageLogo src='/logo-desc.png' alt='logo'/>
-
-      <div className='flex gap-8'>
-        <img src='/insta.png' alt='insta' className="block cursor-pointer"/>
-        <img src='/youtube.png' alt='insta' className="cursor-pointer"/>
-        <img src='/fb.png' alt='insta' className="cursor-pointer"/>
-      </div>
-
     </div>
   )
 }
