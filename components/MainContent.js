@@ -6,7 +6,7 @@ export default function MainContent() {
       
       <div className='flex justify-left items-center py-[20px] sm:justify-center'>
         <img src='/main-logo-dance.png' alt='logo' className='block mr-[10px]' />
-        <p className='font-extrabold text-28px small:text-2xl'>
+        <p className='font-extrabold text-28px small:text-2xl bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400'>
           Comming Soon
         </p>
       </div>
@@ -19,8 +19,9 @@ export default function MainContent() {
 
       <form>
         <p className='text-12px'>Email Addres</p>
-        <input type='text' placeholder='your@exapmple.com' 
-          className=' text-14px p-[10px] pl-[20px] rounded-md bg-gray-100 w-full mt-[5px] mb-[25px]'/>
+        <input type='email' placeholder='your@exapmple.com' 
+          className=' text-14px p-[10px] pl-[20px] rounded-md bg-gray-100 w-full mt-[5px] mb-[25px]'
+        />
         <button className='text-12px bg-customBlue rounded-md py-[12px] w-full text-white tracking-widest'>
           GET EARLY ACCESS
         </button>
