@@ -6,19 +6,20 @@ export default function MainContent() {
       
       <div className='flex justify-left items-center py-[20px] sm:justify-center'>
         <img src='/main-logo-dance.png' alt='logo' className='block mr-[10px]' />
-        <p className='font-extrabold text-28px small:text-2xl bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400'>
+        <p className='font-extrabold text-28px small:text-32px 
+                      from-green-500 via-teal-600 to-indigo-500 bg-gradient-to-r bg-clip-text text-transparent'>
           Comming Soon
         </p>
       </div>
-      <p className='mx-auto tracking-tighter text-12px sm:text-center'>
+      <p className='mx-auto tracking-tighter text-14px sm:text-center'>
         Find bachata, salsa, kizomba and more dance events near you. Expand your dance world with socials, classes and festivals.
       </p>
-      <p className='text-xs pt-[25px] pb-[25px] sm:text-center'>
+      <p className='text-xs font-bold pt-[25px] pb-[25px] sm:text-center'>
         Join our waitlist to get early access
       </p>
 
       <form>
-        <p className='text-12px'>Email Addres</p>
+        <p className='text-12px font-bold'>Email Addres</p>
         <input type='email' placeholder='your@exapmple.com' 
           className=' text-14px p-[10px] pl-[20px] rounded-md bg-gray-100 w-full mt-[5px] mb-[25px]'
         />
@@ -27,7 +28,7 @@ export default function MainContent() {
         </button>
       </form>
       
-      <p className='text-10px text-gray-500 text-center tracking-wide drop-shadow-xl mt-[20px] mb-[5px]'>
+      <p className='text-14px text-gray-500 text-center tracking-wide drop-shadow-xl mt-[20px] mb-[5px]'>
         by submitting your email, agree to recieve email marketing from Social Dance TV. You can unsubscribe anytime.
       </p>
       <div className='flex items-center gap-2 mb-[10px]'>

@@ -17,13 +17,13 @@ module.exports = {
         '14px': '14px',
         '12px': '12px',
         '28px': '28px',
+        '32px': '32px',
       },
       backgroundColor: {
         'customBlue': '#615EFF',
-        'gradient': 'linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)',
       },
       screens: {
-        'small': '330px',
+        'small': '350px',
         // => @media (min-width: 330px) { ... }
 
         'sm': '640px',
