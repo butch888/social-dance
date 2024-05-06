@@ -26,11 +26,11 @@ export default function MainContent({modal, setModal}) {
           Comming Soon
         </p>
 
-      <p className='mx-auto tracking-tighter text-14px sm:text-center'>
+      <p className='mx-auto tracking-tighter text-14px sm:text-center lg:text-left'>
         Find bachata, salsa, kizomba and more dance events near you. Expand your dance world with socials, classes and festivals.
       </p>
       
-      <p className='text-xs font-bold pt-[25px] pb-[25px] sm:text-center'>
+      <p className='text-xs font-bold pt-[25px] pb-[25px] sm:text-center lg:text-left'>
         Join our waitlist to get early access
       </p>
 
@@ -45,7 +45,7 @@ export default function MainContent({modal, setModal}) {
         </button>
       </form>
       
-      <p className='text-14px text-gray-500 text-center tracking-wide drop-shadow-xl mt-[20px] mb-[5px]'>
+      <p className='text-12px text-gray-500 text-center lg:text-left tracking-wide drop-shadow-xl mt-[20px] mb-[5px]'>
         by submitting your email, agree to recieve email marketing from Social Dance TV. You can unsubscribe anytime.
       </p>
       <div className='flex items-center gap-2 mb-[10px]'>
