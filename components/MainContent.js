@@ -1,6 +1,13 @@
 import React from 'react'
 
-export default function MainContent() {
+export default function MainContent({modal, setModal}) {
+
+  const getModal = (e) => {
+    e.preventDefault()
+    setModal(true)
+    console.log(modal)
+  }
+
   return (
     <div className=' lg:mx-[100px] lg:max-w-[400px] px-[20px] pt-[50px] mx-auto'>
       
@@ -32,7 +39,8 @@ export default function MainContent() {
         <input type='email' placeholder='your@exapmple.com' 
           className=' text-14px p-[10px] pl-[20px] rounded-md bg-gray-100 w-full mt-[5px] mb-[25px]'
         />
-        <button className='text-12px bg-customBlue rounded-md py-[12px] w-full text-white tracking-widest'>
+        <button className='text-12px bg-customBlue rounded-md py-[12px] w-full text-white tracking-widest'
+                onClick={(e) => getModal(e)}>
           GET EARLY ACCESS
         </button>
       </form>

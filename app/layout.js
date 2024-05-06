@@ -1,6 +1,7 @@
 import "/css/style.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Modal from "@/components/Modal";
 
 export const metadata = {
   title: "Social Dance TV",
