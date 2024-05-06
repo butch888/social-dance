@@ -10,6 +10,7 @@
     "tw": "npx tailwindcss -i ./app/input.css -o ./css/style.css --watch"
   },
   "dependencies": {
+    "embla-carousel-autoplay": "^8.0.4",
     "embla-carousel-react": "^8.0.4",
     "next": "14.2.3",
     "react": "^18",

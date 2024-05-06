@@ -2,18 +2,27 @@ import React from 'react'
 
 export default function MainContent() {
   return (
-    <div className='mx-[20px] border-b border-gray-100'>
+    <div className=' lg:mx-[100px] lg:max-w-[400px] px-[20px] pt-[50px] mx-auto'>
       
-      <div className='flex justify-left items-center py-[20px] sm:justify-center'>
+      <div className='flex justify-left items-center pb-[20px] msm:justify-center'>
         <img src='/main-logo-dance.png' alt='logo' className='block mr-[10px]' />
+        <p className='mlg:hidden font-extrabold'>
+          Dance<br/>Network
+        </p>
         <p className='font-extrabold text-28px small:text-32px 
-                      from-green-500 via-teal-600 to-indigo-500 bg-gradient-to-r bg-clip-text text-transparent'>
+                      from-green-500 via-teal-600 to-indigo-500 bg-gradient-to-r bg-clip-text text-transparent lg:hidden'>
           Comming Soon
         </p>
       </div>
+      <p className='font-extrabold text-28px small:text-32px 
+                      from-green-500 via-teal-600 to-indigo-500 bg-gradient-to-r bg-clip-text text-transparent mlg:hidden'>
+          Comming Soon
+        </p>
+
       <p className='mx-auto tracking-tighter text-14px sm:text-center'>
         Find bachata, salsa, kizomba and more dance events near you. Expand your dance world with socials, classes and festivals.
       </p>
+      
       <p className='text-xs font-bold pt-[25px] pb-[25px] sm:text-center'>
         Join our waitlist to get early access
       </p>

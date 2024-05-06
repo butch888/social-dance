@@ -40,6 +40,10 @@ module.exports = {
   
         '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
+        'mlg': {'max': '1023px'},
+      // => @media (max-width: 1023px) { ... }
+      'msm': {'max': '639px'},
+      // => @media (max-width: 639px) { ... }
       }
     },
   },
