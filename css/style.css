@@ -2204,6 +2204,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 }
 
 @media (max-width: 639px) {
+  .msm\:hidden {
+    display: none;
+  }
+
   .msm\:justify-center {
     justify-content: center;
   }
