@@ -9,7 +9,6 @@ export default function Main({modal, setModal}) {
         {modal && <Modal setModal={setModal}/>}
         <MainContent modal={modal} setModal={setModal}/>
         <EmblaCarousel />
-         
       </div>
     </main>
   )
