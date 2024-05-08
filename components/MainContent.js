@@ -9,9 +9,9 @@ export default function MainContent({modal, setModal}) {
   }
 
   return (
-    <div className='lg:max-w-[250px] mx-auto'>
+    <div className='lg:max-w-[250px] mx-[20px] lg:mx-auto'>
       
-      <div className='flex pb-[10px]'>
+      <div className='flex items-center p-[10px]'>
         <div>
           <img src='/main-logo-dance.png' alt='logo' className='mr-[10px]' />
         </div>
@@ -54,7 +54,7 @@ export default function MainContent({modal, setModal}) {
         <img src='/forbs.png' alt='forbs' className='block w-[85px]'/>
         <img src='/yahoo.png' alt='yahoo' className='block w-[125px] pt-[10px]'/>
       </div>
-      <div className='border-b w-full lg:hidden'></div>
+      <div className='border-b w-full lg:hidden mb-[20px]'></div>
     </div>
   )
 }
