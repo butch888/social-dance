@@ -9,10 +9,12 @@ export default function MainContent({modal, setModal}) {
   }
 
   return (
-    <div className='lg:max-w-[300px] mx-auto mt-[30px]'>
+    <div className='lg:max-w-[250px] mx-auto'>
       
-      <div className='flex justify-left items-center pb-[10px]'>
-        <img src='/main-logo-dance.png' alt='logo' className='block mr-[10px]' />
+      <div className='flex pb-[10px]'>
+        <div>
+          <img src='/main-logo-dance.png' alt='logo' className='mr-[10px]' />
+        </div>
         <p className='mlg:hidden font-extrabold'>
           Dance<br/>Network
         </p>
@@ -48,7 +50,7 @@ export default function MainContent({modal, setModal}) {
       <p className='text-10px text-gray-500 tracking-wide drop-shadow-xl mt-[20px] mb-[5px]'>
         by submitting your email, agree to recieve email marketing from Social Dance TV. You can unsubscribe anytime.
       </p>
-      <div className='flex items-center gap-2 mb-[10px]'>
+      <div className='flex items-center gap-2 mb-[10px] lg:mb-0'>
         <img src='/forbs.png' alt='forbs' className='block w-[85px]'/>
         <img src='/yahoo.png' alt='yahoo' className='block w-[125px] pt-[10px]'/>
       </div>
