@@ -4,22 +4,23 @@ import React, { useState } from 'react'
 export default function MainContent({modal, setModal}) {
 
   const [inpValue, setInpValue] = useState('')
-  const inp = document.querySelector('input')
 
   const isValidEmail = (email, e) => {
-    if(!email) {
-      inp.focus()
-      e.preventDefault()
-    }
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
   }
 
   const getModal = (e) => {
+    let inp = document.querySelector('input')
     if(isValidEmail(inpValue, e)) {
       e.preventDefault()
       setModal(true)
       setInpValue('')
+    } else {
+      e.preventDefault()
+      inp.focus()
+      setInpValue('')
+      !inpValue ? inp.placeholder='your@exapmple.com' : inp.placeholder='enter correct email'
     }
   }
 
@@ -53,7 +54,7 @@ export default function MainContent({modal, setModal}) {
 
       <form>
         <p className='text-12px font-bold'>Email Addres</p>
-        <input type='email' value={inpValue} placeholder='your@exapmple.com' onChange={(e) => setInpValue(e.target.value)}
+        <input value={inpValue} placeholder='your@exapmple.com' onChange={(e) => setInpValue(e.target.value)}
           className=' text-12px p-[8px] pl-[20px] rounded-md bg-gray-100 w-full mt-[5px] mb-[20px]'
         />
         <button className='text-10px bg-customBlue rounded-md py-[8px] w-full text-white tracking-widest'
