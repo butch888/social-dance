@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Home() {
   const [modal, setModal] = useState(false)
   return (
-    <div className="max-w-[1440px] mx-auto">
+    <div>
       <Main modal={modal} setModal={setModal}/>
     </div>
   );

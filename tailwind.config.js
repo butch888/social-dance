@@ -18,6 +18,8 @@ module.exports = {
         '12px': '12px',
         '14px': '14px',
         '16px': '16px',
+        '24px': '24px',
+        '26px': '26px',
         '28px': '28px',
         '32px': '32px',
       },
@@ -44,7 +46,7 @@ module.exports = {
         // => @media (min-width: 1536px) { ... }
         'mlg': {'max': '1023px'},
       // => @media (max-width: 1023px) { ... }
-      'msm': {'max': '639px'},
+      'msm': {'max': '380px'},
       // => @media (max-width: 639px) { ... }
       }
     },

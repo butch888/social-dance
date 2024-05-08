@@ -1,16 +1,21 @@
+import React from 'react'
 import { EmblaCarousel } from './EmblaCarousel'
 import MainContent from './MainContent'
 import Modal from './Modal'
 
 export default function Main({modal, setModal}) {
   return (
-    <main className='max-w-[1440px] mx-auto pb-[20px] lg:my-[30px] lg:px-[30px] relative'>
-      <div className=' lg:max-w-[1260px] lg:mx-auto flex justify-between flex-col-reverse bg-white lg:flex-row rounded-2xl' >
-        {modal && <Modal setModal={setModal}/>}
-        <MainContent modal={modal} setModal={setModal}/>
-        <EmblaCarousel />
+    <div className='flex justify-center'>
+      <div className='max-w-[1260px] grid grid-cols-1 lg:grid-cols-2 mt-[60px] lg:mt-[100px] mx-[40px] bg-white lg:rounded-2xl '>
+        <div>
+          <MainContent modal={modal} setModal={setModal}/>
+        </div>
+        <div>
+          <EmblaCarousel />
+        </div>
       </div>
-    </main>
+      {modal&&<Modal setModal={setModal}/>}
+    </div>
+    
   )
 }
-
