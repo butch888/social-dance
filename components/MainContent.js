@@ -1,17 +1,32 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 
 export default function MainContent({modal, setModal}) {
 
+  const [inpValue, setInpValue] = useState('')
+  const inp = document.querySelector('input')
+
+  const isValidEmail = (email, e) => {
+    if(!email) {
+      inp.focus()
+      e.preventDefault()
+    }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  }
+
   const getModal = (e) => {
-    e.preventDefault()
-    setModal(true)
-    console.log(modal)
+    if(isValidEmail(inpValue, e)) {
+      e.preventDefault()
+      setModal(true)
+      setInpValue('')
+    }
   }
 
   return (
-    <div className='lg:max-w-[250px] mx-[20px] lg:mx-auto'>
+    <div className='lg:max-w-[250px] mx-[10px] lg:mx-auto'>
       
-      <div className='flex items-center p-[10px]'>
+      <div className='flex items-center p-[10px] pl-[0px]'>
         <div>
           <img src='/main-logo-dance.png' alt='logo' className='mr-[10px]' />
         </div>
@@ -38,7 +53,7 @@ export default function MainContent({modal, setModal}) {
 
       <form>
         <p className='text-12px font-bold'>Email Addres</p>
-        <input type='email' placeholder='your@exapmple.com' 
+        <input type='email' value={inpValue} placeholder='your@exapmple.com' onChange={(e) => setInpValue(e.target.value)}
           className=' text-12px p-[8px] pl-[20px] rounded-md bg-gray-100 w-full mt-[5px] mb-[20px]'
         />
         <button className='text-10px bg-customBlue rounded-md py-[8px] w-full text-white tracking-widest'

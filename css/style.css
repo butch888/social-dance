@@ -872,6 +872,11 @@ input[type="range"]:active::-webkit-slider-thumb {
   margin-right: 20px;
 }
 
+.mx-\[0px\] {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .-mr-\[100\%\] {
   margin-right: -100%;
 }
@@ -1588,6 +1593,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .pt-\[5px\] {
   padding-top: 5px;
+}
+
+.pl-\[0px\] {
+  padding-left: 0px;
 }
 
 .text-left {
