@@ -11,13 +11,14 @@ export function cn(...inputs) {
   return twMerge(clsx(inputs));
 }
 
-function Card({ image }) {
+function Card({ image, ttl, desc }) {
   return (
-    <div className="w-full min-w-0 shrink-0 ">
-      <img
-        src={image}
-        className="w-full lg:rounded-2xl lg:object-cover"
-      />
+    <div className="w-full min-w-0 shrink-0 relative">
+      <img src={image} className="w-full lg:rounded-2xl lg:object-cover"/>
+      <div className='w-[400px] absolute top-[74%] left-1/2 -translate-x-2/4 text-center text-white tracking-wide msm:hidden'>
+        <p className='text-[28px]'>{ttl}</p>
+        <p className='text-[14px] px-[30px] mt-[5px]'>{desc}</p>
+      </div> 
     </div>
   );
 }
@@ -67,6 +68,7 @@ export function MainCarousel(props) {
   const slidesMapped = slides?.map((item) => (
     <Card key={item.title} {...item} />
   ));
+  console.log(slidesMapped)
 
   return (
     <div className={classes.container}>
