@@ -1,5 +1,4 @@
 'use client';
-
 import Autoplay from 'embla-carousel-autoplay';
 import { useCallback, useEffect, useState, useRef } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
@@ -14,10 +13,10 @@ export function cn(...inputs) {
 
 function Card({ image }) {
   return (
-    <div className="w-full min-w-0 shrink-0 lg:flex">
+    <div className="w-full min-w-0 shrink-0 ">
       <img
         src={image}
-        className="w-full rounded-md lg:object-cover lg:h-[465px] lg:w-2/3"
+        className="w-full lg:rounded-2xl lg:object-cover"
       />
     </div>
   );
@@ -71,9 +70,11 @@ export function MainCarousel(props) {
 
   return (
     <div className={classes.container}>
-      <div className="min-w-[calc(320px_-_2rem)] max-w-[calc(100vw_-_2rem)] md:max-w-full">
+      <div className="min-w-[calc(320px_-_2rem)] max-w-[calc(100vw_-_2rem)] max-w-full">
         <div className="overflow-hidden" ref={emblaRef}>
-          <div className="flex">{slidesMapped}</div>
+          <div className="flex">
+            {slidesMapped}
+          </div>
         </div>
       </div>
       <div className="hidden lg:block">

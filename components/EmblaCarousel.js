@@ -32,8 +32,8 @@ export function EmblaCarousel() {
     </div>
   )
 }
-//Describe for carousel img
+
 {/* <div className='absolute top-3/4 left-1/2 -translate-x-2/4 text-center text-white tracking-wide msm:hidden'>
-            <p className='text-[28px]'>Everywhere Your Are</p>
-            <p className='text-[14px] px-[30px] mt-[5px]'>Take classes at your own pace, on your own time, and on any device</p>
-          </div> */}
+  <p className='text-[28px]'>Everywhere Your Are</p>
+  <p className='text-[14px] px-[30px] mt-[5px]'>Take classes at your own pace, on your own time, and on any device</p>
+</div> */}
