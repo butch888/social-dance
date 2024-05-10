@@ -2,7 +2,7 @@ import React from 'react'
 import { EmblaCarousel } from './EmblaCarousel'
 import MainContent from './MainContent'
 import Modal from './Modal'
-import { MainCarousel } from './EmblaCarousel/MainCarousel'
+import { MainCarousel } from './MainCarousel/MainCarousel'
 import MainItems from './MainItems/MainItems'
 
 const slides = [
@@ -38,7 +38,7 @@ export default function Main({modal, setModal}) {
         </div>
       </div>
       {modal&&<Modal setModal={setModal}/>}
-      <MainItems />
+      <EmblaCarousel />
     </div>
     
   )

@@ -36,7 +36,7 @@ export default function MainItems() {
           </button>
         </div>
       </div>
-      <div className='max-w-[250px] relative cursor-pointer'>
+      <div className='max-w-[250px] relative'>
         <img src='Festival.png' alt='...' className='object:cover'/>
         <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
           <p className='font-extrabold text-18px'>
