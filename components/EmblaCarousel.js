@@ -13,7 +13,7 @@ export function EmblaCarousel() {
   }, [emblaApi])
 
   return (
-    <div className="overflow-hidden lg:rounded-2xl mx-[37px] my-[10px] p-[15px] bg-white" ref={emblaRef}>
+    <div className="overflow-hidden lg:rounded-2xl mx-[37px] my-[10px] p-[15px] pr-1 bg-white" ref={emblaRef}>
       
       <div className="flex flex justify-between items-center gap-2">
 

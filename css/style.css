@@ -889,6 +889,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   margin: 10px;
 }
 
+.m-\[15px\] {
+  margin: 15px;
+}
+
 .mx-\[15\%\] {
   margin-left: 15%;
   margin-right: 15%;
@@ -1715,6 +1719,16 @@ input[type="range"]:active::-webkit-slider-thumb {
   padding-bottom: 3px;
 }
 
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .pb-\[5px\] {
   padding-bottom: 5px;
 }
@@ -1733,6 +1747,22 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .pr-\[10-px\] {
   padding-right: 10-px;
+}
+
+.pl-0 {
+  padding-left: 0px;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.pr-\[15px\] {
+  padding-right: 15px;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
 }
 
 .text-left {
@@ -2275,6 +2305,11 @@ input[type="range"]:active::-webkit-slider-thumb {
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .lg\:mx-\[37px\] {
+    margin-left: 37px;
+    margin-right: 37px;
   }
 
   .lg\:mb-0 {
