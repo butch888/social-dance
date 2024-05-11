@@ -3,7 +3,6 @@ import { EmblaCarousel } from './EmblaCarousel'
 import MainContent from './MainContent'
 import Modal from './Modal'
 import { MainCarousel } from './MainCarousel/MainCarousel'
-import MainItems from './MainItems/MainItems'
 
 const slides = [
   {

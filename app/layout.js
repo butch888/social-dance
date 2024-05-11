@@ -1,7 +1,5 @@
 import "/css/style.css";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import MainTest from "@/components/Main";
 
 export const metadata = {
   title: "Social Dance TV",
@@ -14,7 +12,6 @@ export default function RootLayout({ children }) {
       <body className="lg:bg-slate-200">
         <Header />
         {children}
-        <Footer/>
       </body>
     </html>
   );

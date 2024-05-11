@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from 'react'
+import Socials from './Socials';
 
 export default function MainContent({modal, setModal}) {
 
@@ -71,6 +72,10 @@ export default function MainContent({modal, setModal}) {
         <img src='/yahoo.png' alt='yahoo' className='block w-[125px] pt-[10px]'/>
       </div>
       <div className='border-b w-full lg:hidden mb-[20px]'></div>
+      <div className='lg:hidden'>
+        <Socials />
+      </div>
+      <div className='border-b w-full lg:hidden mt-[20px] lg:hidden'></div>
     </div>
   )
 }
