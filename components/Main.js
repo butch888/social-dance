@@ -1,5 +1,5 @@
 import React from 'react'
-import { EmblaCarousel } from './EmblaCarousel'
+import { BottomCarousel } from './BottomCarousel'
 import MainContent from './MainContent'
 import Modal from './Modal'
 import { MainCarousel } from './MainCarousel/MainCarousel'
@@ -37,7 +37,7 @@ export default function Main({modal, setModal}) {
         </div>
       </div>
       {modal&&<Modal setModal={setModal}/>}
-      <EmblaCarousel />
+      <BottomCarousel />
     </div>
     
   )

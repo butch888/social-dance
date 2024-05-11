@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 
-export function EmblaCarousel() {
+export function BottomCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()])
 
   useEffect(() => {
@@ -17,7 +17,8 @@ export function EmblaCarousel() {
       
       <div className="flex flex justify-between items-center gap-2 lg:gap-8">
 
-        <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 relative cursor-pointer">
+        <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 relative cursor-pointer 
+                        border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
           <img src='Guide.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
             <p className='font-extrabold text-18px'>Guide</p>
@@ -25,7 +26,8 @@ export function EmblaCarousel() {
           </div> 
         </div>
 
-        <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 relative cursor-pointer">
+        <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 relative cursor-pointer
+                        border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
           <img src='Event.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
             <p className='font-extrabold text-18px'>Best Event</p>
@@ -33,7 +35,8 @@ export function EmblaCarousel() {
           </div> 
         </div>
 
-        <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 relative">
+        <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 relative 
+                        border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
           <img src='Merch.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
             <p className='font-extrabold text-18px'>Merch</p>
@@ -43,7 +46,8 @@ export function EmblaCarousel() {
           </div> 
         </div>
 
-        <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 relative">
+        <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 relative 
+                        border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
           <img src='Festival.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
             <p className='font-extrabold text-18px'>Festival video</p>
@@ -53,7 +57,8 @@ export function EmblaCarousel() {
           </div> 
         </div>
 
-        <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 mr-2 lg:mr-8 relative">
+        <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 mr-2 lg:mr-8 relative 
+                        border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
           <img src='Videographer.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
             <p className='font-extrabold text-18px'>Videographer</p>
