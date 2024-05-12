@@ -13,9 +13,9 @@ export function BottomCarousel() {
   }, [emblaApi])
 
   return (
-    <div className="overflow-hidden lg:rounded-2xl mx-[37px] my-[10px] p-[15px] pr-1 bg-white" ref={emblaRef}>
+    <div className="overflow-hidden mx-[37px] my-[10px] p-[15px] pr-1 bg-white lg:rounded-2xl" ref={emblaRef}>
       
-      <div className="flex flex justify-between items-center gap-2 lg:gap-8">
+      <div className="flex justify-between items-center gap-2 lg:gap-8">
 
         <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 relative cursor-pointer 
                         border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
@@ -76,3 +76,5 @@ export function BottomCarousel() {
   <p className='text-[28px]'>Everywhere Your Are</p>
   <p className='text-[14px] px-[30px] mt-[5px]'>Take classes at your own pace, on your own time, and on any device</p>
 </div> */}
+
+<iframe title="YouTube video player" class="youtube-player" allowfullscreen="" type="text/html" data-defer-load="Youtube" data-src="//www.youtube.com/embed/hrQBW7gif_4?controls=1" frameborder="0"></iframe>
