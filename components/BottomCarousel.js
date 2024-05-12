@@ -13,11 +13,11 @@ export function BottomCarousel() {
   }, [emblaApi])
 
   return (
-    <div className="overflow-hidden mx-[37px] my-[10px] p-[15px] pr-1 bg-white lg:rounded-2xl" ref={emblaRef}>
+    <div className="overflow-hidden mx-[18px] my-[10px] p-[15px] pr-1 bg-white lg:rounded-2xl" ref={emblaRef}>
       
-      <div className="flex justify-between items-center gap-2 lg:gap-8">
+      <div className="flex justify-between items-center gap-1">
 
-        <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 relative cursor-pointer 
+        <div className="flex-shrink-0 max-w-[296px] min-w-0 relative cursor-pointer 
                         border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
           <img src='Guide.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
@@ -26,7 +26,7 @@ export function BottomCarousel() {
           </div> 
         </div>
 
-        <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 relative cursor-pointer
+        <div className="flex-shrink-0 max-w-[296px] min-w-0 relative cursor-pointer
                         border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
           <img src='Event.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
@@ -35,7 +35,7 @@ export function BottomCarousel() {
           </div> 
         </div>
 
-        <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 relative 
+        <div className="flex-shrink-0 max-w-[296px] min-w-0 relative 
                         border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
           <img src='Merch.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
@@ -46,7 +46,7 @@ export function BottomCarousel() {
           </div> 
         </div>
 
-        <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 relative 
+        <div className="flex-shrink-0 max-w-[296px] min-w-0 relative 
                         border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
           <img src='Festival.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
@@ -57,7 +57,7 @@ export function BottomCarousel() {
           </div> 
         </div>
 
-        <div className="flex-shrink-0 max-w-[240px] lg:max-w-[260px] min-w-0 mr-2 lg:mr-8 relative 
+        <div className="flex-shrink-0 max-w-[296px] min-w-0 mr-1 relative 
                         border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
           <img src='Videographer.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>

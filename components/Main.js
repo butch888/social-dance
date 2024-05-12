@@ -28,7 +28,7 @@ const slides = [
 export default function Main({modal, setModal}) {
   return (
     <div className='max-w-[1260px] mx-auto'>
-      <div className='max-w-[1260px] flex flex-col-reverse lg:grid lg:items-center lg:grid-cols-2 mt-[60px] lg:mt-[100px] lg:mx-[40px] bg-white lg:rounded-2xl '>
+      <div className='max-w-[1260px] flex flex-col-reverse lg:grid lg:items-center lg:grid-cols-2 mt-[60px] lg:mt-[100px] lg:mx-[20px] bg-white lg:rounded-2xl '>
         <div>
           <MainContent modal={modal} setModal={setModal}/>
         </div>
