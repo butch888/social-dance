@@ -57,7 +57,7 @@ export default function MainContent({modal, setModal}) {
         <label className='text-12px font-bold'>
           Email Addres
           <input type='email' value={inpValue} placeholder='your@exapmple.com' onChange={(e) => setInpValue(e.target.value)}
-                className=' text-12px p-[8px] pl-[20px] rounded-md bg-gray-100 w-full mt-[5px] mb-[20px]'/>
+                className='font-normal text-12px p-[8px] pl-[20px] rounded-md bg-gray-100 w-full mt-[5px] mb-[20px]'/>
         </label>
         <button className='text-10px bg-customBlue rounded-md py-[8px] w-full text-white tracking-widest'
                 onClick={(e) => getModal(e)}>
