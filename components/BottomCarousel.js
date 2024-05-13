@@ -21,8 +21,8 @@ export function BottomCarousel() {
                         border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
           <img src='Guide.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
-            <p className='font-extrabold text-18px'>Guide</p>
-            <p className='text-14px leading-tight'>How to go to a festival and be satisfied</p>
+            <p className='font-semibold text-18px'>Guide</p>
+            <p className='font-semibold text-12px '>How to go to a festival and be satisfied</p>
           </div> 
         </div>
 
@@ -30,8 +30,8 @@ export function BottomCarousel() {
                         border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
           <img src='Event.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
-            <p className='font-extrabold text-18px'>Best Event</p>
-            <p className='text-14px leading-tight'>Trip calculator</p>
+            <p className='font-semibold text-18px'>Best Event</p>
+            <p className='font-semibold text-12px'>Trip calculator</p>
           </div> 
         </div>
 
@@ -39,8 +39,8 @@ export function BottomCarousel() {
                         border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
           <img src='Merch.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
-            <p className='font-extrabold text-18px'>Merch</p>
-            <button className='bg-white p-[7px] rounded-full text-[12px] tracking-widest font-bold cursor-pointer'>
+            <p className='font-semibold text-18px'>Merch</p>
+            <button className='bg-white px-[12px] py-[4px] rounded-full text-[12px] tracking-widest font-bold cursor-pointer'>
               SHOP NOW
             </button>
           </div> 
@@ -50,8 +50,8 @@ export function BottomCarousel() {
                         border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
           <img src='Festival.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
-            <p className='font-extrabold text-18px'>Festival video</p>
-            <button className='bg-white p-[7px] rounded-full text-[12px] tracking-widest font-bold cursor-pointer'>
+            <p className='font-semibold text-18px'>Festival video</p>
+            <button className='bg-white px-[12px] py-[4px] rounded-full text-[12px] font-semibold cursor-pointer'>
             BUY VIDEO
             </button>
           </div> 
@@ -61,8 +61,8 @@ export function BottomCarousel() {
                         border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
           <img src='Videographer.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
-            <p className='font-extrabold text-18px'>Videographer</p>
-            <button className='bg-white p-[7px] rounded-full text-[12px] tracking-widest font-bold cursor-pointer'>
+            <p className='font-semibold text-18px'>Videographer</p>
+            <button className='bg-white px-[12px] py-[4px] rounded-full text-[12px] font-semibold cursor-pointer'>
             HIRE
             </button>
           </div> 
