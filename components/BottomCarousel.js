@@ -22,7 +22,7 @@ export function BottomCarousel() {
           <img src='Guide.png' className="w-full object-cover" alt='1'/>
           <div className='absolute top-1/2 left-[40%] transform -translate-y-1/2'>
             <p className='font-semibold text-18px'>Guide</p>
-            <p className='font-semibold text-12px '>How to go to a festival and be satisfied</p>
+            <p className='font-semibold text-12px w-[137px]'>How to go to a festival and be satisfied</p>
           </div> 
         </div>
 
