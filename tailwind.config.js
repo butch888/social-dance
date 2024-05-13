@@ -23,6 +23,7 @@ module.exports = {
         '26px': '26px',
         '28px': '28px',
         '32px': '32px',
+        '38px': '38px',
       },
       backgroundColor: {
         'customBlue': '#615EFF',

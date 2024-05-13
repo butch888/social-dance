@@ -26,46 +26,42 @@ export default function MainContent({modal, setModal}) {
   }
 
   return (
-    <div className='lg:max-w-[250px] mx-[20px] lg:mx-auto'>
+    <div className='lg:max-w-[330px] mx-[20px] lg:mx-auto'>
       
-      <div className='grid grid-cols-2 grid-rows-2  items-center p-[25px] pl-[0px] pb-[5px] relative mlg:grid-cols-1 mlg:grid-rows-1'>
+      <div className='grid grid-cols-2 grid-rows-2 items-center relative mlg:grid-cols-1 mlg:grid-rows-1 mlg:mt-4'>
         <div>
-          <img src='/main-logo-dance.png' alt='logo' className='mr-[10px]' />
+          <img src='/main-logo-dance.png' alt='logo' className='w-[56px] h-[56px]' />
         </div>
-        <p className='font-extrabold relative right-9 mlg:hidden'>
+        <p className='text-26px font-bold leading-[26px] relative right-20 mlg:hidden'>
           Dance<br/>Network
         </p>
-        <p className='font-extrabold text-24px pb-[5px]
-                      from-green-500 via-teal-600 to-indigo-500 bg-gradient-to-r bg-clip-text text-transparent absolute top-20 mlg:top-7 mlg:left-14'>
+        <p className='font-bold text-38px leading-[38px] pt-3 pb-[5px]
+                      from-green-500 via-teal-600 to-indigo-500 bg-gradient-to-r bg-clip-text text-transparent absolute top-16 mlg:-top-1 mlg:left-16'>
           Coming Soon
         </p>
       </div>
-      {/* <p className='font-extrabold text-26px pb-[5px]
-                      from-green-500 via-teal-600 to-indigo-500 bg-gradient-to-r bg-clip-text text-transparent mlg:hidden'>
-          Coming Soon
-        </p> */}
 
-      <p className='tracking-tighter text-12px mlg:mt-4'>
+      <p className='text-[12px] font-normal mt-8'>
         Find bachata, salsa, kizomba and more dance events near you. Expand your dance world with socials, classes and festivals.
       </p>
       
-      <p className='text-xs font-bold py-[20px]'>
+      <p className='text-[14px] font-semibold py-[20px]'>
         Join our waitlist to get early access
       </p>
 
       <form>
-        <label className='text-12px font-bold'>
+        <label className='text-[12px] font-semibold'>
           Email Addres
           <input type='email' value={inpValue} placeholder='your@exapmple.com' onChange={(e) => setInpValue(e.target.value)}
-                className='font-normal text-12px p-[8px] pl-[20px] rounded-md bg-gray-100 w-full mt-[5px] mb-[20px]'/>
+                className='font-normal text-12px p-[14px] rounded-md bg-gray-100 w-full mt-[5px] mb-[20px]'/>
         </label>
-        <button className='text-10px bg-customBlue rounded-md py-[8px] w-full text-white tracking-widest'
+        <button className='text-12px font-semibold bg-customBlue rounded-md py-[14px] w-full text-white tracking-widest'
                 onClick={(e) => getModal(e)}>
           GET EARLY ACCESS
         </button>
       </form>
       
-      <p className='text-10px text-gray-500 tracking-wide drop-shadow-xl mt-[20px] mb-[5px]'>
+      <p className='text-10px font-normal text-gray-500 tracking-wide drop-shadow-xl mt-[20px] mb-[5px]'>
         by submitting your email, agree to recieve email marketing from Social Dance TV. You can unsubscribe anytime.
       </p>
       <div className='flex items-center gap-2 mb-[10px] lg:mb-0'>

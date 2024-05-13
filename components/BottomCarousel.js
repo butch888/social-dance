@@ -13,9 +13,9 @@ export function BottomCarousel() {
   }, [emblaApi])
 
   return (
-    <div className="overflow-hidden mx-[18px] my-[10px] p-[15px] pr-1 bg-white lg:rounded-2xl" ref={emblaRef}>
+    <div className="box-border overflow-hidden mx-[18px] my-[10px] p-[5px] px-2 bg-white lg:rounded-2xl" ref={emblaRef}>
       
-      <div className="flex justify-between items-center gap-1">
+      <div className="flex justify-between items-center gap-1.5">
 
         <div className="flex-shrink-0 max-w-[296px] min-w-0 relative cursor-pointer 
                         border-4 rounded-lg border-[#615EFF]/[0] hover:border-[#615EFF]/[1]">
