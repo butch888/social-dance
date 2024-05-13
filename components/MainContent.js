@@ -28,24 +28,24 @@ export default function MainContent({modal, setModal}) {
   return (
     <div className='lg:max-w-[250px] mx-[20px] lg:mx-auto'>
       
-      <div className='flex items-center p-[25px] pl-[0px]'>
+      <div className='grid grid-cols-2 grid-rows-2  items-center p-[25px] pl-[0px] pb-[5px] relative mlg:grid-cols-1 mlg:grid-rows-1'>
         <div>
           <img src='/main-logo-dance.png' alt='logo' className='mr-[10px]' />
         </div>
-        <p className='mlg:hidden font-extrabold'>
+        <p className='font-extrabold relative right-9 mlg:hidden'>
           Dance<br/>Network
         </p>
         <p className='font-extrabold text-24px pb-[5px]
-                      from-green-500 via-teal-600 to-indigo-500 bg-gradient-to-r bg-clip-text text-transparent lg:hidden'>
+                      from-green-500 via-teal-600 to-indigo-500 bg-gradient-to-r bg-clip-text text-transparent absolute top-20 mlg:top-7 mlg:left-14'>
           Coming Soon
         </p>
       </div>
-      <p className='font-extrabold text-26px pb-[5px]
+      {/* <p className='font-extrabold text-26px pb-[5px]
                       from-green-500 via-teal-600 to-indigo-500 bg-gradient-to-r bg-clip-text text-transparent mlg:hidden'>
           Coming Soon
-        </p>
+        </p> */}
 
-      <p className='tracking-tighter text-12px'>
+      <p className='tracking-tighter text-12px mlg:mt-4'>
         Find bachata, salsa, kizomba and more dance events near you. Expand your dance world with socials, classes and festivals.
       </p>
       
