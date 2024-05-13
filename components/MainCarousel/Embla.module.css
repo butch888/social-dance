@@ -27,11 +27,13 @@
   margin-bottom: 30px;
 }
 
+
 .dots {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
+  display: none; /* delete 'display: none;' for visible dots */
 }
 
 .dot {
