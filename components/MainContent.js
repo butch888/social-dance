@@ -41,7 +41,7 @@ export default function MainContent({modal, setModal}) {
         </p>
       </div>
 
-      <p className='text-[12px] font-normal mt-8'>
+      <p className='w-[293px] text-[12px] font-normal mt-8'>
         Find bachata, salsa, kizomba and more dance events near you. Expand your dance world with socials, classes and festivals.
       </p>
       
@@ -65,8 +65,8 @@ export default function MainContent({modal, setModal}) {
         by submitting your email, agree to recieve email marketing from Social Dance TV. You can unsubscribe anytime.
       </p>
       <div className='flex items-center gap-2 mb-[10px] lg:mb-0'>
-        <img src='/forbs.png' alt='forbs' className='block w-[85px]'/>
-        <img src='/yahoo.png' alt='yahoo' className='block w-[125px] pt-[10px]'/>
+        <img src='/forbs.png' alt='forbs' className='block w-[95px]'/>
+        <img src='/yahoo.png' alt='yahoo' className='block w-[135px] pt-[10px]'/>
       </div>
       <div className='border-b w-full lg:hidden mb-[20px]'></div>
       <div className='lg:hidden'>

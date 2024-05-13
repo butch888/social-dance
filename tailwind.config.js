@@ -13,6 +13,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Poppins', 'sans-serif'],
+      },
       fontSize: {
         '10px': '10px',
         '12px': '12px',
